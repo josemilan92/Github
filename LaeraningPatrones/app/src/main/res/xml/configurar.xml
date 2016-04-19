@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="Usar preferencias"
+        android:key="cbxPreferenceOn"
+        android:summary="Marcar si desean usar las preferencias de usuarios
+        "
+        />
+    <PreferenceCategory android:title="Fondo">
+
+        <ListPreference
+            android:entries="@array/fondo_entries"
+            android:entryValues="@array/fondo_values"
+            android:key="lpFondo"
+            android:summary="Indica el color de fondo que se desea aplicar al texto"
+            android:title="Color de fondo"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Texto">
+        <EditTextPreference
+          android:dialogTitle="Escribe el texto"
+            android:key="etpTexto"
+            android:summary="Indica el texto que se desea mostrar"
+            android:title="Texto"
+            />
+
+
+        <ListPreference
+            android:entries="@array/texto_entries"
+            android:entryValues="@array/fondo_values"
+            android:key="lpTexto"
+            android:summary="Indica el tamaño del texto"
+            android:title="Tamaño del texto"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

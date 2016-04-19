@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Indice"
+        android:id="@+id/m_despliegue"
+        android:icon="@drawable/ic_despliegue"/>
+    <item
+        android:title="Contenido"
+        android:id="@+id/m_contenido"
+        android:icon="@drawable/ic_contenido"/>
+    <item
+        android:title="Sonido"
+        android:id="@+id/m_sonido"
+        android:icon="@drawable/ic_audio"/>
+
+    <item
+        android:title="Videos"
+        android:id="@+id/m_galeria"
+        android:icon="@drawable/ic_galeria"/>
+    <item
+        android:title="Configurar"
+        android:id="@+id/m_configurar"
+        android:icon="@drawable/ic_configurar"/>
+    <item
+        android:title="Quiz"
+        android:id="@+id/m_quiz"
+        android:icon="@drawable/ic_quiz"/>
+    <item
+        android:title="Practica de codigo"
+        android:id="@+id/m_codigo"
+        android:icon="@drawable/ic_practica"/>
+    <item
+        android:title="Actividad Dinamica"
+        android:id="@+id/m_juego"
+        android:icon="@drawable/ic_juego"/>
+
+    <item
+        android:title="Login"
+        android:id="@+id/m_login"
+        android:icon="@drawable/ic_login"/>
+    <item
+        android:title="Registrar"
+        android:id="@+id/m_registrar"
+        android:icon="@drawable/ic_registrar"/>
+
+    <item
+        android:title="Configuración"
+        android:id="@+id/configuracion_item"
+        > <menu>
+        <item
+            android:title="Desarrollador"
+            android:id="@+id/m_inicio"
+            android:icon="@drawable/ic_inicio"/>
+        <item
+            android:title="Resultado"
+            android:id="@+id/m_resultado"
+            android:icon="@drawable/ic_grafcos"/>
+        <item
+            android:title="Acerca de..."
+            android:id="@+id/m_acerca"
+            android:icon="@drawable/ic_acerca"/>
+    <item
+        android:title="Salir"
+        android:id="@+id/m_cerrar"
+        android:icon="@drawable/ic_cerrar"/>
+
+        </menu>
+    </item>
+
+
+</menu>

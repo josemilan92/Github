@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="texto_entries">
+        <item>Normal</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </array>
+
+    <array name="texto_values">
+        <item>normal</item>
+        <item>medium</item>
+        <item>big</item>
+    </array>
+    <array name="fondo_entries">
+        <item>Rojo</item>
+        <item>Gris</item>
+        <item>Azul</item>
+    </array>
+
+    <array name="fondo_values">
+        <item>red</item>
+        <item>gray</item>
+        <item>blue</item>
+    </array>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.utng.edu.laeraningpatrones">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_patr"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTheme">
+        <activity
+            android:name=".activity.Inicio"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".quizactivity.QuizActivity" />
+        <activity android:name=".quizactivity.QuizActivityDos" />
+        <activity android:name=".quizactivity.QuizActivityTres" />
+        <activity android:name=".quizactivity.QuizActivityCuatro" />
+        <activity android:name=".quizactivity.QuizActivityCinco" />
+        <activity android:name=".resultados.ResultActivity" />
+        <activity android:name=".resultados.ResultActivityDos" />
+        <activity android:name=".resultados.ResultActivityTres" />
+        <activity android:name=".resultados.ResultActivityCuatro" />
+        <activity android:name=".resultados.ResultActivityCinco" />
+        <activity android:name=".sonido.SonidoUno" />
+        <activity android:name=".videoyoutube.VideoDosActivity" />
+        <activity android:name=".videoyoutube.VideoTresActivity" />
+        <activity android:name=".videoyoutube.VideoCuatroActivity" />
+        <activity android:name=".videoyoutube.VideoCincoActivity" />
+        <activity android:name=".videoyoutube.VideoSeisActivity" />
+        <activity android:name=".videoyoutube.VideoUnoActivity" />
+        <activity android:name=".activitytab.LeccionUnoJson" />
+        <activity android:name=".activitytab.LeccionDosJson" />
+        <activity android:name=".activitytab.LeccionTresJson" />
+        <activity android:name=".activitytab.LeccionCuatroJson" />
+        <activity android:name=".activitytab.LeccionCincoJson" />
+        <activity android:name=".activitytab.LeccionSeisJson" />
+        <activity android:name=".activitytab.JSONParser" />
+        <activity android:name=".pdfactivity.PdfArchivo" />
+        <activity android:name=".graficosactivity.GraficoActivityDos" />
+        <activity android:name=".pdfactivity.PdfArchivoDos" />
+        <activity android:name=".login.Register" />
+        <activity android:name=".login.Login" />
+        <activity android:name=".login.ReadComments" />
+        <activity android:name=".juegosactivity.Manager" />
+        <activity android:name=".quizpractica.QuizPracticaActivity" />
+        <activity android:name=".quizpractica.QuizPracticaActivityDos" />
+        <activity android:name=".quizpractica.QuizPracticaActivityTres" />
+        <activity android:name=".quizpractica.QuizPracticaActivityCuatro" />
+        <activity android:name=".quizpractica.QuizPracticaCinco" />
+        <activity android:name=".correoactivity.SendEmailActivity" />
+        <activity android:name=".correoactivity.CorreoActivity" />
+        <activity
+            android:name=".preferencefragment.PreferenciaActivity"
+            android:label="@string/title_activity_preferencia"></activity>
+        <activity
+            android:name=".correoactivity.SettingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+    </application>
+
+</manifest>

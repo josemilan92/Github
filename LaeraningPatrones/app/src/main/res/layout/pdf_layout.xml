@@ -1,0 +1,15 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+         <Button android:id="@+id/button_email_pdf"
+             android:layout_gravity="center"
+             android:layout_height="140dp"
+             android:layout_width="fill_parent"
+             android:text="Enviar Archivo"
+             />
+
+</LinearLayout>

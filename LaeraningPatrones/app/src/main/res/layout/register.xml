@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <TextView
+      android:id="@+id/txv_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt_pass"
+        android:layout_centerVertical="true"
+        android:text="@string/user" />
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txv_nombre"
+        android:layout_below="@+id/txv_nombre"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txv_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt_name"
+        android:layout_below="@+id/edt_name"
+        android:text="@string/passw" />
+
+    <TextView
+        android:id="@+id/txv_regi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/re"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/txv_pass"
+        android:layout_toRightOf="@+id/txv_regi"
+        android:layout_toEndOf="@+id/txv_regi" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regi"
+        android:layout_below="@+id/edt_pass"
+        android:layout_toRightOf="@+id/txv_pass"
+        android:layout_toEndOf="@+id/txv_pass" />
+
+</RelativeLayout>
